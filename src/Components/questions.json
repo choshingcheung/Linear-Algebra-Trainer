@@ -1,0 +1,63 @@
+[
+    {
+      "question": "If A is an m × n matrix and A has n pivot positions then the columns of A span Rm.",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "question": "A 6 × 3 matrix has 6 columns.",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "question": "The equation Ax = b has a solution if the vector b is a linear combination of the columns of A.",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "question": "If an augmented matrix [ A | b ] can be transformed by elementary row operations into [ C | d ], then the equations Ax = b and Cx = d have exactly the same solution sets.",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "question": "If S = span{0} then S is a set containing a single vector.",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "question": "If w is a linear combination of u and v in Rn, then u is a linear combination of v and w.",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "question": "A linear transformation T : Rn → Rm is completely determined by its effect on the columns of the n × n identity matrix.",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "question": "Not every linear transformation from Rn to Rm is a matrix transformation.",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "question": "The co-domain of the transformation x → Ax is the set of all linear combinations of the columns of A.",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "question": "Given a linearly independent set of vectors {v1, v2, v3}, 0 ∈ span{v1, v2, v3}",
+      "answer": true,
+      "explanation": ""
+    },
+    {
+      "question": "A mapping T : Rn → Rm is onto Rm if every vector x ∈ Rn maps onto some vector in Rm.",
+      "answer": false,
+      "explanation": ""
+    },
+    {
+      "question": "If a set contains fewer vectors than there are entries in the vectors, then the set is linearly independent.",
+      "answer": false,
+      "explanation": ""
+    }
+]
+  

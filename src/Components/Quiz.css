@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Quiz container */
+  .quiz-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Question header */
+  .quiz-container h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Buttons styling */
+  .quiz-container button {
+    background-color: #5cb85c; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .quiz-container button:hover {
+    background-color: #449d44; /* Darker green */
+  }
+  
+  /* Button for false answers */
+  .quiz-container .false-button {
+    background-color: #d9534f; /* Red */
+  }
+  
+  .quiz-container .false-button:hover {
+    background-color: #c9302c; /* Darker red */
+  }
+  
+  /* Explanation paragraph */
+  .quiz-container p {
+    margin-top: 20px;
+  }
+  
+  /* Start and finish buttons */
+  .quiz-container .start-finish-button {
+    background-color: #0275d8; /* Blue */
+  }
+  
+  .quiz-container .start-finish-button:hover {
+    background-color: #025aa5; /* Darker blue */
+  }
+  
