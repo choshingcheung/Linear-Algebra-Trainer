@@ -92,6 +92,6 @@
   {
     "question": "A homogeneous system of equations can be inconsistent.",
     "answer": false,
-    "explanation": "A homogeneous system of equations, which has the form A⃗x = ⃗0, is always consistent because it has at least the trivial solution ⃗x = ⃗0. A system is inconsistent only if it has no solutions, which is not the case for homogeneous systems."
+    "explanation": "A homogeneous system of equations, which has the form Ax = 0, is always consistent because it has at least the trivial solution x = 0. A system is inconsistent only if it has no solutions, which is not the case for homogeneous systems."
   }
 ]
