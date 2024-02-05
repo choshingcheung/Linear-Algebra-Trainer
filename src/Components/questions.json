@@ -62,7 +62,7 @@
   {
       "question": "When u and v are nonzero vectors, Span{u, v} contains the line through u and the origin",
       "answer": true,
-      "explanation": "The span of two nonzero vectors, u and v, in a vector space includes all linear combinations of u and v. This span forms a plane that contains the line through ⃗u and the origin, as well as the line through v and the origin"
+      "explanation": "The span of two nonzero vectors, u and v, in a vector space includes all linear combinations of u and v. This span forms a plane that contains the line through u and the origin, as well as the line through v and the origin"
   },
   {
       "question": "The row echelon form of a matrix is unique.",
