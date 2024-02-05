@@ -58,5 +58,40 @@
       "question": "If a set contains fewer vectors than there are entries in the vectors, then the set is linearly independent.",
       "answer": false,
       "explanation": "Having fewer vectors than the number of entries in each vector does not automatically make a set linearly independent. Linear independence requires that no vector in the set can be written as a linear combination of the others."
+  },
+  {
+      "question": "When u and v are nonzero vectors, Span{u, v} contains the line through u and the origin",
+      "answer": true,
+      "explanation": "The span of two nonzero vectors, u and v, in a vector space includes all linear combinations of u and v. This span forms a plane that contains the line through ⃗u and the origin, as well as the line through v and the origin"
+  },
+  {
+      "question": "The row echelon form of a matrix is unique.",
+      "answer": false,
+      "explanation": "The row echelon form of a matrix is not unique because different sequences of elementary row operations can produce different row echelon forms. However, the reduced row echelon form (RREF) of a matrix is unique."
+  },
+  {
+      "question": "If T is a linear transform, its range contains at least the zero vector.",
+      "answer": true,
+      "explanation": "The range of a linear transformation T, which is a set of all possible outputs T(x) for x in the domain, always includes the zero vector because linear transformations must preserve the zero vector (T(0) = 0)"
+  },
+  {
+      "question": "A linear system is consistent if and only if the rightmost column of the augmented matrix is not a pivot column – that is, if and only if an echelon form of the augmented matrix has no row of the form [ 0, 0 ... 0 b ] with b ≠ 0.",
+      "answer": true,
+      "explanation": "A linear system is consistent if it has at least one solution. This is equivalent to the augmented matrix not having a pivot in the rightmost column (the column of constants), as such a pivot would indicate a row where all coefficients are zero but the constant term is nonzero, which is inconsistent."
+  },
+  {
+    "question": "Every elementary row operation is reversible.",
+    "answer": true,
+    "explanation": "Each type of elementary row operation (swapping two rows, multiplying a row by a nonzero scalar, adding a multiple of one row to another) has an inverse operation that can reverse its effect, making these operations reversible."
+  },
+  {
+    "question": "If the equation Ax = b is inconsistent, then b is not in the set spanned by the columns of A.",
+    "answer": true,
+    "explanation": "For the equation Ax = b to be inconsistent, there is no solution x that satisfies the equation. This implies that b cannot be expressed as a linear combination of the columns of A, meaning b is not in the column span of A."
+  },
+  {
+    "question": "A homogeneous system of equations can be inconsistent.",
+    "answer": false,
+    "explanation": "A homogeneous system of equations, which has the form A⃗x = ⃗0, is always consistent because it has at least the trivial solution ⃗x = ⃗0. A system is inconsistent only if it has no solutions, which is not the case for homogeneous systems."
   }
 ]
